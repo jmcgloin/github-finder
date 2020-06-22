@@ -16,8 +16,11 @@
   --success-color: #28a745;
 }
 
-nav {
+.navbar {
   background-color: var(--primary-color);
+  color: var(--light-color);
+  font-size: var(--font-size--large);
+  height: 6vh;
 }
 
 .card {

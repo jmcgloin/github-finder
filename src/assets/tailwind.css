@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#header-banner {
+	transition: height 0.5s;
+	transition-delay: 0.25s;
+}

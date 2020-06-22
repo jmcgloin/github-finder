@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './components/layout/Navbar';
-import UserItem from './components/users/UserItem';
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar title="GitHub Finder" />
-        <UserItem />
-        <h1>Hello</h1>
+				<Header />
+	        <h1>Hello</h1>
+				<Footer />
       </div>
     )
   }
